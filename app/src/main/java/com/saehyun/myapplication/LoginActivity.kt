@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         val btn : Button = findViewById(R.id.btn)
 
         btn.setOnClickListener {
-            Toast.makeText(applicationContext, "gitflow연습", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "통과시켜 주세요 ㅠㅠ", Toast.LENGTH_SHORT).show()
         }
     }
 }
