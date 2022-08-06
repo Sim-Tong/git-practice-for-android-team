@@ -10,9 +10,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val btn : Button = findViewById(R.id.btn)
+        val btn_login : Button = findViewById(R.id.btn_login)
 
-        btn.setOnClickListener {
+        btn_login.setOnClickListener {
             Toast.makeText(applicationContext, "fix", Toast.LENGTH_SHORT).show()
         }
     }
